@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --cor-bg: #292929;
+    --cor-bg-div: #212121;
+    --cor-gray:#ECE7E7;
+    --cor-white:#FFFFFF;
+    --transition:#FC1507;
+}
+/* Cores */
+.cor-gray{
+    color: var(--cor-gray);
+}
+.cor-white{
+    color: var(--cor-white);
+}
+.color-bg{
+    background-color: var(--cor-bg);
+}
+.color-bg-div{
+    background-color: var(--cor-bg-div);
+}
+/* end */
+/* Header */
+.lg-senai{
+    width: 15vw;
+    height: 10vh;
+}
+header {
+    padding: 30px;
+}
+.d-flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.sep{
+    width: 4vw;
+    height: 3.5vh;
+    border: none;
+    border-left: 1px solid var(--cor-gray);
+    margin-left: 4vw;
+}
+.margin-lf-rt{
+    margin-left: 4vw;
+}
+.space-bt{
+    justify-content: space-between;
+}
+/* Botão */
+.bnt{
+    text-align: center;
+    border-radius: 8px;
+    padding: 1.5vh 2.5vh;
+    border: 2px solid var(--transition);
+    transition: 0.3s;
+}
+.bnt:hover{
+    background-color: var(--transition);
+    scale: 1.2;
+}
+.transition{
+    color: var(--cor-white);
+    transition: 0.05s;
+}
+.transition:hover{
+    color:var(--transition);
+    scale: 1.2;
+}
+/* end>> header */
+/* Ajustes de sections */
+.formatação-div{
+    width: 60vw;
+    padding: 3vw;
+    border-radius: 2vw;
+}
+.gap{
+    gap:2vw
+}
+.shadow-fg{
+    border: 2px solid red;
+}
+.shadow-html{
+    border: 2px solid orange;
+}
+.shadow-css{
+    border: 2px solid blue;
+}
+.shadow-py{
+    border: 2px solid yellow;
+}
+.tamanho-img{
+    width: auto;
+    height: 140px;
+}
+h1 {
+    text-align: center;
+}
+.column {
+    flex-direction: column;
+}
+.gap-p {
+    gap: 30px;
+}
+.p-right {
+    position: relative;
+    left: 450px;
+}
+.p-left {
+    position: relative;
+    left: 50px;
+}
+.gap-m {
+    gap: 60px;
+}
+.forma-div{
+    width: 25vw;
+    height: 42vh;
+    border-radius: 2vw;
+    padding: 2vw;
+}
+.padding-m{
+    padding: 3vw;
+}
+.img-git{
+    width: auto;
+    height: 75px;
+}
+/* end>>formatação */
